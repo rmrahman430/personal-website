@@ -5,7 +5,7 @@ import Header from './components/header';
 import avatar from './img/avatar.png';
 import Projects from './pages/projects';
 import Footer from './components/footer';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter , Routes, Route, Navigate } from 'react-router-dom';
 
 
 interface HomeInfoProps {
@@ -27,7 +27,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <HashRouter>
       <div className="app-container d-flex flex-col min-h-screen">
         <Header title={'Portfolio'} />
         <Routes>
@@ -39,7 +39,7 @@ function App() {
         <Footer />
       </div>
 
-    </Router>
+    </HashRouter>
   );
 }
 
