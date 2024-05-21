@@ -27,7 +27,7 @@ function App() {
   };
 
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <div className="app-container d-flex flex-col min-h-screen">
         <Header title={'Portfolio'} />
         <Routes>
@@ -38,7 +38,6 @@ function App() {
         </Routes>
         <Footer />
       </div>
-
     </HashRouter>
   );
 }
