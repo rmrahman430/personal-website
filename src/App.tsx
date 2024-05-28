@@ -5,6 +5,7 @@ import Header from "./components/header";
 import avatar from "./img/avatar.png";
 import Projects from "./pages/projects";
 import Footer from "./components/footer";
+import DownloadResume from "./components/DownloadResume";
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 
 interface HomeInfoProps {
