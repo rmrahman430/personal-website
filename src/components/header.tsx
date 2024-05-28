@@ -56,6 +56,14 @@ const Header: React.FC<HeaderProps> = ({ title }) => {
               Projects
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/resume"
+              className="text-white-300 hover:underline flex"
+            >
+              Resume
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>
